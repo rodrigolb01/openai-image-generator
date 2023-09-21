@@ -46,6 +46,6 @@ npm start
 
 # Autor
 
-Wellington Mazoni de Andrade
+Rodrigo Linhares Barroso
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/rodrigo-linhares-barroso-6271671a4/
