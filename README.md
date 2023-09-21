@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# OpenAI Image Generator
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/rodrigolb01/openai-image-generator/blob/main/LICENSE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Gerador de imagens usando Inteligência artificial com a engine OpenAI V1
 
-In the project directory, you can run:
+# Tecnologias utilizadas
+- nodejs
+- OpenAI
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Como executar o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Back end
+Pré-requisitos: 
+- nodejs
+- npm ou yarn
+- uma conta OpenAI
 
-### `npm test`
+- Primeiramente será preciso criar uma conta no site OpenAI pelo link abaixo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://platform.openai.com/account/api-keys
 
-### `npm run build`
+- Gerar uma chave de authenticação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# clonar repositório
+git clone https://github.com/rodrigolb01/openai-image-generator
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- entrar na paste do projeto e criar um arquivo .env
+- adicionar a variável REACT_APP_OPENAI_API_KEY=<valor da chave de autenticação>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ```bash
+# baixar as dependências (com npm)
+npm install
 
-### `npm run eject`
+# baixar as dependências (com yarn)
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# executar o projeto
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Wellington Mazoni de Andrade
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.linkedin.com/in/wmazoni
